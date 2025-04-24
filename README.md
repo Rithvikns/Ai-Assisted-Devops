@@ -86,3 +86,28 @@ build_time,tests_run,error_logs,build_passed
 420,50,2,0
 180,200,0,1
 500,80,3,0
+
+## Python code
+```python
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+# Load dataset
+df = pd.read_csv("ci_builds.csv")
+X = df.drop("build_passed", axis=1)
+y = df["build_passed"]
+
+# Train/test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Train model
+clf = RandomForestClassifier()
+clf.fit(X_train, y_train)
+
+# Predict new build outcome
+new_build = pd.DataFrame([[400, 100, 1]], columns=["build_time", "tests_run", "error_logs"])
+prediction = clf.predict(new_build)
+print("✅ Build Likely to Pass" if prediction[0] else "❌ Build Likely to Fail")
+
+```
