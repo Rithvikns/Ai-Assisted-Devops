@@ -41,6 +41,7 @@ graph TD
   C[ML in DevOps] -->|Enhance DevOps with ML| D[Anomaly Detection, Predictive CI/CD]
   E[AIOps] -->|Automated IT Ops| F[Self-Healing Systems]
   G[AI-Assisted DevOps] -->|AI Support Tools| H[Smart Suggestions, Not Full Automation]
+```
 
 # 🤖 AI-Assisted DevOps
 
