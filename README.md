@@ -111,3 +111,6 @@ prediction = clf.predict(new_build)
 print("✅ Build Likely to Pass" if prediction[0] else "❌ Build Likely to Fail")
 
 ```
+### Advantages
+
+Ai can provide accurate code for task such as shell scripting , writind docker file 
