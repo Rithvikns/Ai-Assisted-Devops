@@ -1,6 +1,6 @@
 # 🔍 Understanding MLOps vs. ML in DevOps & AIOps vs. AI-Assisted DevOps
 
-This guide breaks down the differences between commonly confused terms in the world of machine learning and AI integration in operations. It focuses on:
+This guide breaks down the differences between commonly confused terms in the world of machine learning and AI integration in operations. It focuses on on:
 
 - MLOps vs. ML in DevOps
 - AIOps vs. AI-Assisted DevOps
