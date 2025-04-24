@@ -111,6 +111,6 @@ prediction = clf.predict(new_build)
 print("✅ Build Likely to Pass" if prediction[0] else "❌ Build Likely to Fail")
 
 ```
-### Advantages
+### Summary
 
-Ai can provide accurate code for task such as shell scripting , writind docker file 
+Ai can provide accurate code for task such as shell scripting , writind docker file but when it comes to few programming task , it writes nthe code with outdates packages or invalid packages , therefore using AI
