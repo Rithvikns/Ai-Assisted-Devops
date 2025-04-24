@@ -7,7 +7,7 @@ This guide breaks down the differences between commonly confused terms in the wo
 
 ---
 
-## 📦 MLOps vs. ML in Dev
+## 📦 MLOps vs. ML in Devops
 
 | Feature             | **MLOps**                                                  | **ML in DevOps**                                           |
 |---------------------|-------------------------------------------------------------|-------------------------------------------------------------|
